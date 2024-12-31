@@ -90,7 +90,7 @@ function Sidebar() {
               >
                 <img src={item.icon} alt={item.label} width="20" style={{ marginRight: "16px" }} />
                 <span style={{ fontSize: "14px", fontWeight: "400", color: "#333" }}>
-                  <Link to={"*"}>{item.label}</Link> {/* Use Link here */}
+                  <Link to={item.path}>{item.label}</Link> {/* Use Link here */}
                 </span>
               </div>
             ))}
@@ -113,7 +113,7 @@ function Sidebar() {
               >
                 <img src={item.icon} alt={item.label} width="20" style={{ marginRight: "16px" }} />
                 <span style={{ fontSize: "14px", fontWeight: "400", color: "#333" }}>
-                  <Link to={"*"}>{item.label}</Link> {/* Use Link here */}
+                  <Link to={item.path}>{item.label}</Link> {/* Use Link here */}
                 </span>
               </div>
             ))}
@@ -135,7 +135,7 @@ function Sidebar() {
               >
                 <img src={item.icon} alt={item.label} width="20" style={{ marginRight: "16px" }} />
                 <span style={{ fontSize: "14px", fontWeight: "400", color: "#333" }}>
-                  <Link to={"*"}>{item.label}</Link> {/* Use Link here */}
+                  <Link to={item.path}>{item.label}</Link> {/* Use Link here */}
                 </span>
               </div>
             ))}
